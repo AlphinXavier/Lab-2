@@ -22,3 +22,9 @@ function updateBackgroundColor() {
   // log the color in the console just to check it’s working
   console.log("Background color changed to:", rgbColor);
 }
+
+// event listeners so the color changes as the sliders move
+redSlider.addEventListener("input", updateBackgroundColor);
+greenSlider.addEventListener("input", updateBackgroundColor);
+blueSlider.addEventListener("input", updateBackgroundColor);
+
