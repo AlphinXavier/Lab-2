@@ -28,3 +28,5 @@ redSlider.addEventListener("input", updateBackgroundColor);
 greenSlider.addEventListener("input", updateBackgroundColor);
 blueSlider.addEventListener("input", updateBackgroundColor);
 
+// call the function once when the page loads so it starts from the right color
+updateBackgroundColor();
